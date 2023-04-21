@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CHECKOUT</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: #ffd7d7;">
+    <div class="container nav">
+      <img src="./images/dipped-logo-PhotoRoom.png" alt="Dipped-Logo" />
+      <nav class="navl">
+        <div class="nav-links-container">
+          <a href="./home.html" class="nav__link">
+            <span class="nav__text">Home</span>
+            <ion-icon name="home-outline" size="large"></ion-icon>
+          </a>
+          <a href="./products.html" class="nav__link">
+            <span class="nav__text">Shop</span>
+            <ion-icon name="Shop-outline" size="large"></ion-icon>
+          </a>
+          <a href="./registration.html" class="nav__link">
+            <span class="nav__text">Register Here</span>
+            <ion-icon name="registration-outline" size="large"></ion-icon>
+          </a>
+          <a href="./login.html" class="nav__link">
+            <span class="nav__text">Login Here</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+    <div class="container checkout">
+      <div class="credit-info">
+        <div class="credit-info-content">
+            <div class="row">
+              <h2>Card Information</h2>
+            </div>
+            <div class="row">
+              
+                <label class="form-label">Card Number</label>
+                <input type="text" class="form-control" />
+             </div>
+            <div class="row">
+              <div class="col">
+                <label class="form-label">Card Holder</label>
+                <input type="text" class="form-control" />
+              </div>
+              </div>
+              <div class="row">
+            <div class="col-4">
+                <label class="form-label">EXP</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="col-4">
+                <label class="form-label">CVC</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="col-4">
+                <label class="form-label">Billing Zip</label>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="container cart" id="checkout">
+        <div class="row">
+          <div class="col">
+            <table
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+            <tr>
+            <th>Cart</th>
+            </tr>
+                <tr>
+                  <td>
+                    Simple Drizzle
+                  </td>
+                  <td><span class="price">$25</span></td>
+                </tr>
+                <tr><td><hr /></td></tr>
+                <tr>
+                  <td>
+                   Breakable Heart with 1/2 DOZ Strawberries
+                  </td>
+                  
+                  <td><span class="price">$40</span></td>
+
+                </tr>
+<tr><td><hr /></td></tr>
+                <tr>
+                  <td>
+                    Apples
+                  </td>
+                  <td><span class="price">$25</span></td>
+                </tr>
+                <tr><td><hr /></td></tr>
+                <tr>
+                  <td>
+                  Cheesecake Cup
+                  </td>
+                  <td><span class="price">$8</span></td>
+                </tr>
+                <tr><td><hr /></td></tr>
+                <tr>
+                    
+                    <td>
+                    Total
+                    </td>
+                    <td>
+                    <span class="price" style="color: black"><b>$98</b></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="submit"
+                      value="Checkout"
+                      class="btn"
+                      style="border: 1px solid #806a22;
+                      background-color:#ffd7d7;"
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
